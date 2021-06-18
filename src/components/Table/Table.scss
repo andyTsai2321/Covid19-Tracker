@@ -1,0 +1,12 @@
+.table{
+    height: 400px;
+    overflow: scroll;
+    margin-top: 20px;
+
+    tr{
+      &:nth-of-type(odd){
+        background: #f3f2f8;
+      }
+    }
+  }
+
